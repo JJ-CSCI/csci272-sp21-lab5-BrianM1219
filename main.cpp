@@ -5,7 +5,30 @@
 //------------------------------
 
 // Write the assignment code here
-
+class Real{
+    // Data members! Did you define them?
+  public:
+Real(double=10.0);
+double  GetReal(){
+return GetReal(); 
+}
+};
+class Complex : public Real
+{
+  public:
+Complex(double=10.0,double=20.0);
+double GetImaginary() {
+  return GetImaginary();
+}
+};
+class Surreal : public Complex
+{
+  public:
+Surreal(double=10.0,double=20.0,double=30.0);
+double GetSurreal(){
+  return GetSurreal();
+}
+};
 
 //------------------------------
 //   DO NOT MODIFY TEST CASES
